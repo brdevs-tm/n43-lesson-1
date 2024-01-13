@@ -87,11 +87,18 @@ nav {
   line-height: 20px;
 }
 
+@media (max-width: 700px) {
+  .nav-list {
+    display: none;
+  }
+}
+
 .header-home {
   display: flex;
   align-items: start;
   justify-content: space-between;
   padding-bottom: 80px;
+  flex-wrap: wrap;
 }
 
 .home-left {
@@ -213,6 +220,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .property-card {
@@ -289,6 +297,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .protect-card {
